@@ -6,7 +6,7 @@ import random
 import msvcrt#currently only works for windows os
 import platform
 import threading
-from queue import Queue
+#from queue import Queue
 clear = lambda: os.system("cls") if platform.system() == "Windows" else lambda: os.system("clear")
 _domain = 10#12
 _range = 18#23
